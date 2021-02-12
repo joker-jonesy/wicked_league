@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './less/style.css';
+import {createStore} from 'redux';
+import {Provider} from "react-redux";
 import App from './App';
+import rootReducer from "./rdx/reducers";
+
 import reportWebVitals from './reportWebVitals';
+import './fontawesome'
+
+const store = createStore(rootReducer);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Provider store={store}>
+
+            <App/>
+
+    </Provider>,
   document.getElementById('root')
 );
 

@@ -1,0 +1,34 @@
+.flexer(){
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexCenter(){
+  justify-content: center;
+  align-items: center;
+}
+
+.flexSpace(){
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pad(@padOut){
+  box-sizing: border-box;
+  padding: @padOut;
+}
+
+.cover(@color){
+  .flexer();
+  .flexCenter();
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: @color;
+  .pad(10px);
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+  }
+}

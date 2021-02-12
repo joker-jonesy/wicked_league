@@ -1,0 +1,45 @@
+
+.villainSelectorStp(@circleSize, @circleSizeLg){
+
+  .villainSelector{
+    height: @circleSize;
+    width: @circleSize;
+    border-radius: @circleSize;
+    background-color: @menubackground;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 6px;
+    overflow: hidden;
+    position: relative;
+    opacity: inherit;
+    transition: 0.125s;
+
+    img{
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.125s;
+    }
+
+    &:hover{
+      opacity: 0.5;
+      img{
+        height: 150%;
+        top: -25%;
+        left: -25%;
+
+      }
+
+
+    }
+
+    @media screen and (min-width: 800px){
+      height: @circleSizeLg;
+      width: @circleSizeLg;
+      border-radius: @circleSizeLg;
+    }
+  }
+
+}

@@ -1,0 +1,147 @@
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: @fontColor;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  z-index: 99;
+
+  .logo {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+
+    &:hover{
+      opacity: 0.7;
+    }
+
+    @media screen and (max-width: 600px){
+      &:hover{
+        opacity: 1;
+      }
+    }
+
+  }
+
+  img {
+    height: 80%;
+  }
+
+  .ham {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  svg{
+    transition: 0.15s;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    &:active{
+      opacity: 0.5;
+    }
+
+    @media screen and (max-device-width: 600px){
+      &:hover {
+        font-size: initial;
+        opacity: 1;
+      }
+    }
+
+  }
+
+
+}
+
+
+.navOptions{
+  box-sizing: border-box;
+  overflow: hidden;
+  .item{
+    transition: 0.15s;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: inherit;
+    padding: 8px;
+    border-bottom: 2px solid;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+
+    svg{
+      margin: 0 3px;
+    }
+  }
+}
+
+.options {
+  box-sizing: border-box;
+  @media screen and (min-width: 600px) {
+    border-left: 2px solid;
+  }
+}
+
+.sortNav{
+  min-height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: @menubackground;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content:space-between;
+  box-sizing: border-box;
+  padding: 8px;
+  z-index: 98;
+  transition: 0.15s;
+
+  .itm{
+    height: 45px;
+    min-width: 80px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: @fontColor;
+    color: white;
+    margin-right: 4px;
+    margin-top:5px;
+    cursor: pointer;
+    border:  2px solid;
+    transition: 0.15s;
+
+    svg{
+      margin: 0 3px;
+    }
+  }
+
+}

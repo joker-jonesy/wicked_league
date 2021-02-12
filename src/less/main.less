@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  background-color: @background;
+  color: @fontColor;
+}
+
+a{
+  text-decoration: none;
+  color: @background;
+}
+
+
+.App{
+  width: 100%;
+  .flexer();
+  .flexCenter();
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-top: 85px;
+}
+
+.villainSelectorWrap{
+  max-width: 600px;
+  .flexer();
+  .flexCenter();
+  position: relative;
+  min-height: 100%;
+
+  .villainSelectorStp(120px, 180px);
+}
+
+span{
+  width: 100%;
+  .flexer();
+  .flexCenter();
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 8px;
+  font-family: Header;
+  color: @fontColor;
+}

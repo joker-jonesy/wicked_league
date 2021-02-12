@@ -1,0 +1,453 @@
+@font-face {
+  font-family: wicked;
+  src: url("../font/Yataghan-Regular.otf");
+}
+@font-face {
+  font-family: Header;
+  src: url("../font/Palatbol.ttf");
+}
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343740;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  z-index: 99;
+}
+nav .logo {
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav .logo:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 600px) {
+  nav .logo:hover {
+    opacity: 1;
+  }
+}
+nav img {
+  height: 80%;
+}
+nav .ham {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+nav svg {
+  transition: 0.15s;
+}
+nav svg:hover {
+  opacity: 0.75;
+}
+nav svg:active {
+  opacity: 0.5;
+}
+@media screen and (max-device-width: 600px) {
+  nav svg:hover {
+    font-size: initial;
+    opacity: 1;
+  }
+}
+.navOptions {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navOptions .item {
+  transition: 0.15s;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: inherit;
+  padding: 8px;
+  border-bottom: 2px solid;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navOptions .item svg {
+  margin: 0 3px;
+}
+.options {
+  box-sizing: border-box;
+}
+@media screen and (min-width: 600px) {
+  .options {
+    border-left: 2px solid;
+  }
+}
+.sortNav {
+  min-height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: #8f8f8f;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  box-sizing: border-box;
+  padding: 8px;
+  z-index: 98;
+  transition: 0.15s;
+}
+.sortNav .itm {
+  height: 45px;
+  min-width: 80px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 6px;
+  background-color: #343740;
+  color: white;
+  margin-right: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: 2px solid;
+  transition: 0.15s;
+}
+.sortNav .itm svg {
+  margin: 0 3px;
+}
+* {
+  margin: 0;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+html {
+  background-color: #ededed;
+  color: #343740;
+}
+a {
+  text-decoration: none;
+  color: #ededed;
+}
+.App {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-top: 85px;
+}
+.villainSelectorWrap {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100%;
+}
+.villainSelectorWrap .villainSelector {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: #8f8f8f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 6px;
+  overflow: hidden;
+  position: relative;
+  opacity: inherit;
+  transition: 0.125s;
+}
+.villainSelectorWrap .villainSelector img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.125s;
+}
+.villainSelectorWrap .villainSelector:hover {
+  opacity: 0.5;
+}
+.villainSelectorWrap .villainSelector:hover img {
+  height: 150%;
+  top: -25%;
+  left: -25%;
+}
+@media screen and (min-width: 800px) {
+  .villainSelectorWrap .villainSelector {
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+  }
+}
+span {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 8px;
+  font-family: Header;
+  color: #343740;
+}
+.villainWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1100px;
+}
+@media screen and (min-width: 800px) {
+  .villainWrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.villainWrap .statBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  position: relative;
+}
+.villainWrap .statBox .imgCover {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.villainWrap .statBox img {
+  width: 350px;
+}
+@media screen and (min-width: 800px) {
+  .villainWrap .statBox {
+    width: 43.75%;
+  }
+}
+.villainWrap .statBox h1,
+.villainWrap .statBox h2,
+.villainWrap .statBox h3,
+.villainWrap .statBox h4,
+.villainWrap .statBox h5,
+.villainWrap .statBox h6 {
+  width: 100%;
+  text-align: center;
+}
+.villainWrap .statBox .statBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.villainWrap .statBox .statBlock .chartTitle {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+.villainWrap .statBox h3 {
+  font-style: italic;
+}
+.villainWrap .statBox .full {
+  width: 100%;
+}
+.villainWrap .statBox .half {
+  width: 50%;
+}
+.villainWrap .graphicBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  position: relative;
+}
+@media screen and (min-width: 800px) {
+  .villainWrap .graphicBox {
+    width: 56.25%;
+  }
+}
+.villainWrap .graphicBox .graphNav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 13.5%;
+}
+.villainWrap .graphicBox .graphNav .grpTab {
+  min-width: 60px;
+  box-sizing: border-box;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #343740;
+  cursor: pointer;
+  transition: 0.125s;
+}
+.villainWrap .graphicBox .graphNav .grpTab h3 {
+  margin: 0;
+  color: #ededed;
+}
+.villainWrap .graphicBox .graphNav .active {
+  background-color: white;
+}
+.villainWrap .graphicBox .graphNav .active h3 {
+  color: #343740;
+}
+.villainWrap .graphicBox .graphics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  position: relative;
+}
+.villainWrap .graphicBox .graphics h1 {
+  width: 100%;
+  text-align: center;
+}
+.villainWrap .graphicBox .graphics .graphWrap {
+  min-height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .villainSelector {
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  background-color: #8f8f8f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 6px;
+  overflow: hidden;
+  position: relative;
+  opacity: inherit;
+  transition: 0.125s;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .villainSelector img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.125s;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .villainSelector:hover {
+  opacity: 0.5;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .villainSelector:hover img {
+  height: 150%;
+  top: -25%;
+  left: -25%;
+}
+@media screen and (min-width: 800px) {
+  .villainWrap .graphicBox .graphics .graphWrap .barHold .villainSelector {
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+  }
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar {
+  position: relative;
+  width: 70%;
+  height: 30px;
+  background-color: #8f8f8f;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barText {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barText h4 {
+  color: #ededed;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barTextWinners {
+  left: 0;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barTextWinners h4 {
+  margin: 0 0 0 10px;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barTextLosers {
+  right: 0;
+  margin: 3.5px 10px 0 0;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barFill {
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barFillWinners {
+  left: 0;
+}
+.villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barFillLosers {
+  right: 0;
+  opacity: 0.35;
+}
+/*# sourceMappingURL=style.css.map */
