@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a47539d-97d7-4456-86d7-e1ed5f513562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Captain_Hook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Dr._Facilier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Evil_Queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Jafar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Prince_John.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Queen_of_Hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Ratigan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Scar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portraits/Ursula.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Captain-Hook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Cruella-De-Vil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Dr.-Facilier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Evil-Queen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Hades.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Jafar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Maleficent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Mother-Gothel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Pete.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Prince-John.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Queen-of-Hearts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Ratigan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Scar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Ursula.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/profiles/Yzma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/villainousLogoWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Captain_Hook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Cruella_De_Vil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Dr_Facilier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Evil_Queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Hades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Jafar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Maleficent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Mother_Gothel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Pete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Prince_John.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Queen_of_Hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Ratigan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Scar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Ursula.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portraits/Yzma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Captain-Hook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Cruella-De-Vil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Dr.-Facilier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Evil-Queen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Hades.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Jafar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Maleficent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Mother-Gothel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Pete.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Prince-John.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Queen-of-Hearts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Ratigan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Scar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Ursula.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profiles/Yzma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/selector/VillainHolder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/selector/VillainSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/villain/Bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/villain/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/villain/GraphicBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/villain/Villain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/villain/VillainIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/VIllainData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Palatbol.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Yataghan-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fontawesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/fonts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/footer.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/nav.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/style.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/villain.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/villainSelector.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rdx/actions/setActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rdx/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +92,7 @@
       <workItem from="1612451656654" duration="7026000" />
       <workItem from="1612888061959" duration="608000" />
       <workItem from="1612903195248" duration="1000" />
-      <workItem from="1613155089705" duration="4426000" />
+      <workItem from="1613155089705" duration="5100000" />
     </task>
     <servers />
   </component>
