@@ -12,7 +12,7 @@ function VilHold() {
 
     return (
         <span>
-            <h1>Select a Villain</h1>
+            <h1>Select a Villain to learn about their statistics!</h1>
             <div className={"villainSelectorWrap"}>
               {villainMap}
             </div>

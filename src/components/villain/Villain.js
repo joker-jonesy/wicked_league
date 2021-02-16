@@ -21,7 +21,7 @@ function Villain(props) {
                 c= [c[0], c[0], c[1], c[1], c[2], c[2]];
             }
             c= '0x'+c.join('');
-            return 'rgba('+[(c>>16)&255, (c>>8)&255, c&255].join(',')+',0.5)';
+            return 'rgba('+[(c>>16)&255, (c>>8)&255, c&255].join(',')+',0.25)';
         }
     };
 
@@ -41,7 +41,7 @@ function Villain(props) {
 
                 <div className={"statBlock full"}>
                     <h4 className={"chartTitle"}>{Villain.wins+Villain.losses} Total games Played</h4>
-                    <VictoryPie height={300} data={data} labels={({ datum }) => `${datum.value+" "+datum.type} `} x={"type"} y={"value"} colorScale={[Villain.fill, hexToRgbA(Villain.fill)]}/>
+                    <VictoryPie height={350} data={data} labels={({ datum }) => `${datum.value+" "+datum.type} `} x={"type"} y={"value"} colorScale={[Villain.fill, hexToRgbA(Villain.fill)]}/>
                 </div>
 
             </div>
