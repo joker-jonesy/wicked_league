@@ -24,13 +24,12 @@ nav {
     transition: 0.5s;
 
 
-
-    &:hover{
+    &:hover {
       opacity: 0.7;
     }
 
-    @media screen and (max-width: 600px){
-      &:hover{
+    @media screen and (max-width: 600px) {
+      &:hover {
         opacity: 1;
       }
     }
@@ -43,29 +42,19 @@ nav {
 
   .ham {
     height: 100%;
-    width: 100px;
+    width: 180px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
-  }
 
-  svg{
-    transition: 0.15s;
-
-    &:hover {
-      opacity: 0.75;
+    img {
+      height: 45px;
     }
 
-    &:active{
-      opacity: 0.5;
-    }
-
-    @media screen and (max-device-width: 600px){
-      &:hover {
-        font-size: initial;
-        opacity: 1;
-      }
+    svg{
+      color: @background;
+      font-size: 36px;
     }
 
   }
@@ -74,10 +63,11 @@ nav {
 }
 
 
-.navOptions{
+.navOptions {
   box-sizing: border-box;
   overflow: hidden;
-  .item{
+
+  .item {
     transition: 0.15s;
     height: 30px;
     width: 100%;
@@ -91,7 +81,7 @@ nav {
     font-weight: 500;
     cursor: pointer;
 
-    svg{
+    svg {
       margin: 0 3px;
     }
   }
@@ -104,7 +94,7 @@ nav {
   }
 }
 
-.sortNav{
+.sortNav {
   min-height: 60px;
   width: 100%;
   position: fixed;
@@ -116,13 +106,13 @@ nav {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  align-content:space-between;
+  align-content: space-between;
   box-sizing: border-box;
   padding: 8px;
   z-index: 98;
   transition: 0.15s;
 
-  .itm{
+  .itm {
     height: 45px;
     min-width: 80px;
     border-radius: 80px;
@@ -134,12 +124,12 @@ nav {
     background-color: @fontColor;
     color: white;
     margin-right: 4px;
-    margin-top:5px;
+    margin-top: 5px;
     cursor: pointer;
-    border:  2px solid;
+    border: 2px solid;
     transition: 0.15s;
 
-    svg{
+    svg {
       margin: 0 3px;
     }
   }

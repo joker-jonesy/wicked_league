@@ -1,0 +1,50 @@
+.home{
+  max-width: 600px;
+  .flexer();
+  justify-content: space-around;
+  position: relative;
+  min-height: 100%;
+  .pad(16px);
+
+
+
+  p{
+    margin-bottom: 15px;
+  }
+
+
+  .linker{
+    height:200px;
+    width:200px;
+    border-radius: 200px;
+    background-color: @fontColor;
+    .flexer();
+    .flexCenter();
+    flex-direction: column;
+    transition: 0.125s;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+
+    img{
+      height: 80px;
+    }
+
+    svg{
+      font-size: 60px;
+    }
+
+    h1{
+      color: @background;
+    }
+
+    &:hover{
+      background-color: @background;
+      h1,svg {
+        color: @fontColor;
+      }
+      border: solid 5px @fontColor;
+    }
+
+  }
+}

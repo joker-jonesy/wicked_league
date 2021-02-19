@@ -44,26 +44,18 @@ nav img {
 }
 nav .ham {
   height: 100%;
-  width: 100px;
+  width: 180px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
 }
-nav svg {
-  transition: 0.15s;
+nav .ham img {
+  height: 45px;
 }
-nav svg:hover {
-  opacity: 0.75;
-}
-nav svg:active {
-  opacity: 0.5;
-}
-@media screen and (max-device-width: 600px) {
-  nav svg:hover {
-    font-size: initial;
-    opacity: 1;
-  }
+nav .ham svg {
+  color: #ededed;
+  font-size: 36px;
 }
 .navOptions {
   box-sizing: border-box;
@@ -226,6 +218,51 @@ h6 {
   margin-bottom: 8px;
   font-family: Header;
   color: #343740;
+  text-align: center;
+}
+.home {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.home p {
+  margin-bottom: 15px;
+}
+.home .linker {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-color: #343740;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.125s;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.home .linker img {
+  height: 80px;
+}
+.home .linker svg {
+  font-size: 60px;
+}
+.home .linker h1 {
+  color: #ededed;
+}
+.home .linker:hover {
+  background-color: #ededed;
+  border: solid 5px #343740;
+}
+.home .linker:hover h1,
+.home .linker:hover svg {
+  color: #343740;
 }
 .villainWrap {
   display: flex;
@@ -260,6 +297,21 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.villainWrap .statBox .imgCover .profile {
+  box-sizing: border-box;
+  border-radius: 240px;
+  height: 240px;
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #095E16;
+}
+.villainWrap .statBox .imgCover .profile svg {
+  color: #ededed;
+  font-size: 96px;
 }
 .villainWrap .statBox img {
   width: 350px;
@@ -447,6 +499,215 @@ h6 {
   left: 0;
 }
 .villainWrap .graphicBox .graphics .graphWrap .barHold .bar .barFillLosers {
+  right: 0;
+  opacity: 0.2;
+}
+.playerSelector {
+  transition: 0.125s;
+  border-radius: 20px;
+}
+.playerSelector:hover {
+  background-color: #095E16;
+}
+.playerSelector:hover h1 {
+  color: #ededed;
+}
+.playerSelector:hover .playerSelect svg {
+  color: #ededed;
+  font-size: 96px;
+}
+.playerSelector .playerSelect {
+  box-sizing: border-box;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #095E16;
+  margin: 10px;
+}
+.playerSelector .playerSelect svg {
+  color: #ededed;
+  font-size: 96px;
+}
+.graphicBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  position: relative;
+}
+@media screen and (min-width: 800px) {
+  .graphicBox {
+    width: 56.25%;
+  }
+}
+.graphicBox .graphNav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 13.5%;
+}
+.graphicBox .graphNav .grpTab {
+  min-width: 60px;
+  box-sizing: border-box;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #343740;
+  cursor: pointer;
+  transition: 0.125s;
+}
+.graphicBox .graphNav .grpTab h3 {
+  margin: 0;
+  color: #ededed;
+}
+.graphicBox .graphNav .active {
+  background-color: white;
+}
+.graphicBox .graphNav .active h3 {
+  color: #343740;
+}
+.graphicBox .graphics {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  position: relative;
+}
+.graphicBox .graphics h1 {
+  width: 100%;
+  text-align: center;
+}
+.graphicBox .graphics .graphSelector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+}
+.graphicBox .graphics .graphSelector .slc {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin: 4px;
+  cursor: pointer;
+  transition: 0.125s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.graphicBox .graphics .graphSelector .slc img {
+  height: 100%;
+  opacity: 0.45;
+}
+.graphicBox .graphics .graphWrap {
+  min-height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.graphicBox .graphics .graphWrap .barHold {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.graphicBox .graphics .graphWrap .barHold .villainSelector {
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  background-color: #8f8f8f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 6px;
+  overflow: hidden;
+  position: relative;
+  opacity: inherit;
+  transition: 0.125s;
+}
+.graphicBox .graphics .graphWrap .barHold .villainSelector img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.125s;
+}
+.graphicBox .graphics .graphWrap .barHold .villainSelector:hover {
+  opacity: 0.5;
+}
+.graphicBox .graphics .graphWrap .barHold .villainSelector:hover img {
+  height: 150%;
+  top: -25%;
+  left: -25%;
+}
+@media screen and (min-width: 800px) {
+  .graphicBox .graphics .graphWrap .barHold .villainSelector {
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+  }
+}
+.graphicBox .graphics .graphWrap .barHold .bar {
+  position: relative;
+  width: 70%;
+  height: 30px;
+  background-color: #8f8f8f;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barText {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barText h4 {
+  color: #ededed;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barTextWinners {
+  left: 0;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barTextWinners h4 {
+  margin: 0 0 0 10px;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barTextLosers {
+  right: 0;
+  margin: 3.5px 10px 0 0;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barFill {
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barFillWinners {
+  left: 0;
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barFillLosers {
   right: 0;
   opacity: 0.2;
 }

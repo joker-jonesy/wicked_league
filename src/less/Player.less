@@ -1,0 +1,32 @@
+.playerSelector{
+  transition: 0.125s;
+  border-radius: 20px;
+  &:hover{
+    background-color: #095E16;
+    h1{
+      color: @background;
+    }
+
+    .playerSelect{
+      svg{
+        color: @background;
+        font-size: 96px;
+      }
+    }
+  }
+  .playerSelect{
+    box-sizing: border-box;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    .flexer();
+    .flexCenter();
+    background-color: #095E16;
+    margin: 10px;
+    svg{
+      color: @background;
+      font-size: 96px;
+    }
+  }
+}
+

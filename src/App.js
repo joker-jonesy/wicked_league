@@ -1,7 +1,10 @@
 import React from 'react';
 import Nav from "./components/navigation/Nav";
 import VilHold from "./components/selector/VillainHolder";
+import PlayerHold from "./components/selector/PlayerHolder";
 import Villain from "./components/villain/Villain";
+import Player from "./components/player/Player";
+import Home from "./components/home/Home";
 import {
     Switch,
     Route,
@@ -17,8 +20,11 @@ function App() {
             <Router>
                 <Nav/>
                 <Switch>
-                    <Route exact path={"/"} component={VilHold}/>
+                    <Route exact path={"/"} component={Home}/>
+                    <Route path={"/villains"} component={VilHold}/>
+                    <Route path={"/players"} component={PlayerHold}/>
                     <Route path={"/villain/:id"} component={Villain}/>
+                    <Route path={"/player/:id"} component={Player}/>
                 </Switch>
             </Router>
         </div>

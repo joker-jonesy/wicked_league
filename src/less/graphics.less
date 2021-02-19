@@ -1,0 +1,145 @@
+.graphicBox {
+  width: 100%;
+  .flexer();
+  .flexCenter();
+  .pad(8px);
+  position: relative;
+
+  @media screen and (min-width: 800px) {
+    width: 56.25%;
+  }
+
+  .graphNav {
+    width: 100%;
+    .flexer();
+    box-sizing: border-box;
+    padding-left: 13.5%;
+
+    .grpTab {
+      min-width: 60px;
+      .pad(8px);
+      .flexer();
+      .flexCenter();
+      background-color: @fontColor;
+      cursor: pointer;
+      transition: 0.125s;
+
+      h3 {
+        margin: 0;
+        color: @background;
+      }
+    }
+
+    .active {
+      background-color: white;
+
+      h3 {
+        color: @fontColor;
+      }
+    }
+  }
+
+  .graphics {
+    max-width: 800px;
+    .flexer();
+    .flexCenter();
+    .pad(8px);
+    position: relative;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    .graphSelector{
+      .flexer();
+      .flexCenter();
+      width: 100%;
+      box-sizing: border-box;
+      .pad(12px);
+      .slc{
+        height: 60px;
+        width: 60px;
+        border-radius: 60px;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        margin: 4px;
+        cursor: pointer;
+        transition: 0.125s;
+        .flexer();
+        .flexCenter();
+        box-sizing: border-box;
+        img{
+          height: 100%;
+          opacity: 0.45;
+        }
+      }
+    }
+
+    .graphWrap {
+      min-height: 400px;
+      width: 100%;
+      .pad(10px);
+      position: relative;
+      .flexer();
+      flex-direction: column;
+
+      .barHold {
+        height: 50px;
+        .flexer();
+        .flexCenter();
+        .villainSelectorStp(45px, 45px);
+
+        .bar {
+          position: relative;
+          width: 70%;
+          height: 30px;
+          background-color: @menubackground;
+
+          .barText {
+            height: 100%;
+            position: absolute;
+            top: 0;
+            .flexer();
+            align-items: center;
+
+            h4 {
+              color: @background;
+            }
+          }
+
+          .barTextWinners{
+            left: 0;
+            h4{
+              margin: 0 0 0 10px;
+            }
+          }
+
+          .barTextLosers{
+            right: 0;
+            margin: 3.5px 10px 0 0;
+          }
+
+          .barFill {
+            height: 100%;
+            position: absolute;
+            top: 0;
+          }
+
+          .barFillWinners{
+            left: 0;
+          }
+
+          .barFillLosers{
+            right: 0;
+            opacity: 0.2;
+          }
+        }
+
+      }
+
+    }
+  }
+
+}

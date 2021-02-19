@@ -9,8 +9,8 @@ function Chart(props) {
     };
 
     const bars = dataMap.matchups.map((vl, idx) =>
-        <Bar dt={vl} key={idx} wins={props.winning} total={{wins:props.wins, losses:props.losses}}/>
-    )
+        <Bar dt={vl} key={idx}/>
+    );
 
     return (
         <div className={"graphWrap"}>
