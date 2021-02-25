@@ -5,6 +5,8 @@ import PlayerHold from "./components/selector/PlayerHolder";
 import Villain from "./components/villain/Villain";
 import Player from "./components/player/Player";
 import Home from "./components/home/Home";
+import Footer from "./components/navigation/Footer";
+import Sources from "./components/home/Sources";
 import {
     Switch,
     Route,
@@ -25,7 +27,9 @@ function App() {
                     <Route path={"/players"} component={PlayerHold}/>
                     <Route path={"/villain/:id"} component={Villain}/>
                     <Route path={"/player/:id"} component={Player}/>
+                    <Route path={"/sources"} component={Sources}/>
                 </Switch>
+                <Footer/>
             </Router>
         </div>
     );

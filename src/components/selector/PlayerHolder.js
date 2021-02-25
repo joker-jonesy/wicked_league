@@ -1,6 +1,8 @@
 import React from 'react';
 import PlayerSelect from "./PlayerSelect";
 import Players from "../../data/PlayerData";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Link} from "react-router-dom";
 
 function PlayerHold() {
 
@@ -11,12 +13,13 @@ function PlayerHold() {
     );
 
     return (
-        <span>
+        <div className={"wrapItUp"}>
             <h1>Select a Player to learn about their statistics!</h1>
             <div className={"villainSelectorWrap"}>
               {playerMap}
             </div>
-        </span>
+            <Link className={"returner"} to={"/"}>Return Home <FontAwesomeIcon icon={"undo-alt"}/></Link>
+        </div>
     );
 }
 

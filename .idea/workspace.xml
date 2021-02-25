@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a47539d-97d7-4456-86d7-e1ed5f513562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/GraphicSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/Player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/selector/PlayerHolder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/selector/PlayerSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/PlayerData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/Player.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/graphics.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/home.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Sources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/portraits/EuX3vXWVIAMWbwe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/portraits/Gaston.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/portraits/Lady_Tremaine.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/villain/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/infographics/Bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/villain/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/infographics/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/villain/GraphicBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/villain/GraphicBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/VIllainData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/VIllainData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/infographics/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/infographics/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/selector/PlayerHolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/selector/PlayerHolder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/selector/VillainHolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/selector/VillainHolder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fontawesome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/home.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/home.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/main.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/nav.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/nav.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/villain.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/villain.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +113,9 @@
       <workItem from="1612903195248" duration="1000" />
       <workItem from="1613155089705" duration="5477000" />
       <workItem from="1613511255453" duration="690000" />
-      <workItem from="1613747913765" duration="10501000" />
+      <workItem from="1613747913765" duration="10817000" />
+      <workItem from="1614029267935" duration="1405000" />
+      <workItem from="1614268946275" duration="2290000" />
     </task>
     <servers />
   </component>
@@ -134,30 +131,30 @@
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state x="893" y="479" key="EditFileWatcherDialog/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1611764444763" />
-    <state width="2471" height="258" key="GridCell.Tab.0.bottom" timestamp="1613760043119">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="2471" height="258" key="GridCell.Tab.0.bottom" timestamp="1614271004116">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2471" height="258" key="GridCell.Tab.0.bottom/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1613760043119" />
+    <state width="2471" height="258" key="GridCell.Tab.0.bottom/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1614030677049" />
     <state width="2471" height="258" key="GridCell.Tab.0.bottom/2560.331.1920.1057/0.23.2560.1354/-1920.206.1920.1057@0.23.2560.1354" timestamp="1613160778554" />
-    <state width="2471" height="258" key="GridCell.Tab.0.bottom/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1613511994549" />
-    <state width="2471" height="258" key="GridCell.Tab.0.center" timestamp="1613760043118">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="2471" height="258" key="GridCell.Tab.0.bottom/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1614271004116" />
+    <state width="2471" height="258" key="GridCell.Tab.0.center" timestamp="1614271004115">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2471" height="258" key="GridCell.Tab.0.center/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1613760043118" />
+    <state width="2471" height="258" key="GridCell.Tab.0.center/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1614030677048" />
     <state width="2471" height="258" key="GridCell.Tab.0.center/2560.331.1920.1057/0.23.2560.1354/-1920.206.1920.1057@0.23.2560.1354" timestamp="1613160778553" />
-    <state width="2471" height="258" key="GridCell.Tab.0.center/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1613511994549" />
-    <state width="2471" height="258" key="GridCell.Tab.0.left" timestamp="1613760043118">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="2471" height="258" key="GridCell.Tab.0.center/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1614271004115" />
+    <state width="2471" height="258" key="GridCell.Tab.0.left" timestamp="1614271004114">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2471" height="258" key="GridCell.Tab.0.left/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1613760043118" />
+    <state width="2471" height="258" key="GridCell.Tab.0.left/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1614030677047" />
     <state width="2471" height="258" key="GridCell.Tab.0.left/2560.331.1920.1057/0.23.2560.1354/-1920.206.1920.1057@0.23.2560.1354" timestamp="1613160778553" />
-    <state width="2471" height="258" key="GridCell.Tab.0.left/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1613511994548" />
-    <state width="2471" height="258" key="GridCell.Tab.0.right" timestamp="1613760043119">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="2471" height="258" key="GridCell.Tab.0.left/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1614271004114" />
+    <state width="2471" height="258" key="GridCell.Tab.0.right" timestamp="1614271004115">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2471" height="258" key="GridCell.Tab.0.right/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1613760043119" />
+    <state width="2471" height="258" key="GridCell.Tab.0.right/2560.331.1920.1057/0.23.2560.1353/-1920.206.1920.1057@0.23.2560.1353" timestamp="1614030677048" />
     <state width="2471" height="258" key="GridCell.Tab.0.right/2560.331.1920.1057/0.23.2560.1354/-1920.206.1920.1057@0.23.2560.1354" timestamp="1613160778554" />
-    <state width="2471" height="258" key="GridCell.Tab.0.right/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1613511994549" />
+    <state width="2471" height="258" key="GridCell.Tab.0.right/2560.331.1920.1057/0.23.2560.1417/-1920.206.1920.1009@0.23.2560.1417" timestamp="1614271004115" />
     <state x="787" y="338" key="SettingsEditor" timestamp="1613155256488">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
