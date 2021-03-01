@@ -17,7 +17,7 @@ function Nav() {
 
             <div className={"ham"}>
                 <Link to={"/villains"}>
-                    <img alt={"vilWhite"} src={vilWhite}/>
+                    <img alt={"Villainous_Logo"} src={vilWhite}/>
                 </Link>
                 <Link to={"/players"}>
                     <FontAwesomeIcon icon={"user"}/>
