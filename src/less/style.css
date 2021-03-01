@@ -336,6 +336,20 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.villainWrap .statBox .imgCover img {
+  width: 350px;
+  transition: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
 .villainWrap .statBox .imgCover .profile {
   box-sizing: border-box;
   border-radius: 240px;
@@ -350,9 +364,6 @@ h6 {
 .villainWrap .statBox .imgCover .profile svg {
   color: #ededed;
   font-size: 96px;
-}
-.villainWrap .statBox img {
-  width: 350px;
 }
 @media screen and (min-width: 800px) {
   .villainWrap .statBox {
@@ -757,6 +768,20 @@ h6 {
 }
 .graphicBox .graphics .graphWrap .barHold .bar .barFillWinners {
   left: 0;
+  transition: 1s;
+}
+@keyframes example {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.graphicBox .graphics .graphWrap .barHold .bar .barFillWinners .winnerFill {
+  height: 100%;
+  animation-name: example;
+  animation-duration: 1s;
 }
 .graphicBox .graphics .graphWrap .barHold .bar .barFillLosers {
   right: 0;

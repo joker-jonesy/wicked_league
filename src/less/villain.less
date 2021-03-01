@@ -25,6 +25,18 @@
       .flexer();
       .flexCenter();
 
+      @keyframes fade {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+
+      img {
+        width: 350px;
+        transition: 1s;
+        animation-name: fade;
+        animation-duration: 1s;
+      }
+
       .profile{
         box-sizing: border-box;
         border-radius: 240px;
@@ -41,9 +53,7 @@
 
     }
 
-    img {
-      width: 350px;
-    }
+
 
     @media screen and (min-width: 800px) {
       width: 43.75%;

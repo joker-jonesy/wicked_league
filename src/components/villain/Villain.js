@@ -30,7 +30,7 @@ function Villain(props) {
         <div className={"villainWrap"}>
             <div className={"statBox"}>
                 <div className={"imgCover"}>
-                    <img alt={Villain.title + "Portrait"} src={`./../../../assets/portraits/${StringReplace(Villain.title, "_")}.png`}/>
+                    <img style={{"opacity":1}} alt={Villain.title + "Portrait"} src={`./../../../assets/portraits/${StringReplace(Villain.title, "_")}.png`}/>
                 </div>
                 <h1>{StringReplace(Villain.title, " ")}</h1>
                 <h3>"{Villain.quote}"</h3>
@@ -41,7 +41,9 @@ function Villain(props) {
 
                 <div className={"statBlock full"}>
                     <h4 className={"chartTitle"}>{Villain.wins+Villain.losses} Total games Played</h4>
-                    <VictoryPie height={350} data={data} labels={({ datum }) => `${datum.value+" "+datum.type} `} x={"type"} y={"value"} colorScale={[Villain.fill, hexToRgbA(Villain.fill)]}/>
+                    <VictoryPie animate={{
+                        duration: 1000
+                    }} height={350} data={data} labels={({ datum }) => `${Math.floor(datum.value)+" "+datum.type} `} x={"type"} y={"value"} colorScale={[Villain.fill, hexToRgbA(Villain.fill)]}/>
                 </div>
 
             </div>
